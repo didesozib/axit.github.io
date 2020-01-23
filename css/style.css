@@ -1,0 +1,835 @@
+
+/*==============================
+  ==============================
+* Author Name: Ratul Emdad
+* Author URL: ratulemdad.com
+* Theme URL: ratulemdad.com/
+* Skype: 
+* Description: 
+  ==============================
+  ==============================*/
+  
+
+/*==============================
+  ==============================
+* 00: Global CSS;
+* 01: Hearder Section CSS;
+* 02: Banner Section CSS;
+* 03: Social Media Section CSS;
+* 04: Tabs Section CSS;
+* 05: Sub List Section CSS;
+* 06:Standard Picture Section CSS;
+* 07: AWESOME Section CSS;
+* 08: PRICING OPTIONS Section CSS;
+* 09: What Customers Says Section CSS;
+* 10: STYLISH DESIGN Section CSS;
+* 11: Contact Us Section CSS;
+* 12: Footer Section CSS;
+  ==============================
+  ==============================*/
+
+
+/* 00: Global CSS Start */
+
+/* Google Fonts Raleway and open sens */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800|Raleway:100,200,300,400,500,600,700,800,900&display=swap');
+
+/* Global Css */
+body{
+	font-family: 'Open Sans', sans-serif;
+  	color: #86878b;
+  	line-height: initial;
+  	font-size: 16px;
+  	font-weight: 300;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Raleway', sans-serif;
+	color: #333;
+}
+p, ul, li, a{
+	font-family: 'Open Sans', sans-serif;
+	color: #333;
+	text-decoration: none;
+}
+a{
+	color: #333;
+	text-decoration: none;
+}
+a:hover{
+	color: #ff8b38;
+}
+ul li{
+  list-style: none;
+  display: inline;
+}
+
+/****************************************
+		Headr Section Css
+*****************************************/
+header{
+	background: #000;
+    color: #fff;
+    height: 75px;
+}
+.navbar{
+	padding: .3rem 1rem;
+}
+.navbar-brand{
+	color: #fff;
+	font-size: 48px;
+	font-weight: 700;
+	padding: 0px;
+}
+.navbar-brand .logo-partial{
+	color: #ff8b38;
+	font-weight: 300;
+}
+.nav-item .nav-link{
+	color: #fff;
+	font-size: 16px;
+	margin-left: 20px;
+}
+.nav-item .nav-link:hover{
+	color: #ff8b38;
+}
+.active .nav-link{
+	color: #ff8b38;
+}
+
+/****************************************
+		Banner Section Css
+*****************************************/
+.banner-section{
+	background: url(../img/banner.png) no-repeat center top;
+	background-size: cover;
+	padding: 120px 0 150px;
+}
+.banner-col{
+	padding-right: 0px;
+}
+.banner-section h1{
+	margin: 35px 0;
+	color: #fff;
+	font-size: 36px;
+	font-weight: 500;
+}
+.title-border{
+	background: #fff;
+	width: 100px;
+	height: 2px;
+}
+.banner-section h6{
+	color: #e3e3e3;
+	margin: 35px 0;
+	font-size: 18px;
+}
+.btn-custom{
+	color: #fff;
+	background: transparent;
+	border: 2px solid #fff;
+	padding: 10px 30px;
+	border-radius: 3px;
+}
+.btn-custom:hover{
+	background: #ff8b38;
+	border: 2px solid #ff8b38;
+}
+/* Form */
+.trial-form{
+	background: #fff;
+	border-top: 1px solid #f5f5f5;
+	border-radius: 5px;
+	margin-top: 30px;
+	
+}
+.form-heading{
+	background: #f5f5f5;
+	padding: 20px;
+	border-top: 1px solid #f5f5f5;
+    border-radius: 7px;
+}
+.form-heading h2{
+	color: #333;
+	font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+.form-heading h2 span{
+	color: #ff8b38;
+}
+.trial-body{
+	
+}
+.trial-body .form-group{
+	margin: 20px 0;
+	padding: 20px;
+}
+.trial-body .form-control{
+	border: none;
+	border-bottom: 1px solid #ddd;
+	border-radius: 0;
+}
+.trial-body .form-control:focus {
+    color: #333;
+    border-color: #ff8b38;
+    outline: 0;
+    box-shadow: 0 0 0 0 rgba(0,123,255,0);
+}
+.btn-trial{
+	background: #ff8b38;
+	color: #fff;
+	padding: 15px 0;
+	border: 1px solid #ff8b38;
+	font-size: 18px;
+	transition: .4s;
+}
+.btn-trial:hover{
+	background: #333;
+	border: 1px solid #333;
+	transition: .4s;
+}
+
+/****************************************
+		Social Media Section CSS
+*****************************************/
+.social-section{
+	background: #fff;
+	padding: 30px 0;
+	border-bottom: 2px solid #b7b7b7;
+}
+.social-section h2{
+	font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.social-section p{
+	color: #8b8b8b;
+}
+.social-media{
+	margin-top: 30px;
+}
+.social-media ul li{
+	margin: 20px 15px;
+}
+.social-media ul li a{
+	font-size: 48px;
+	text-decoration: none;
+	transition: .4s;
+}
+/****************************************
+		Tab Section CSS
+*****************************************/
+.tab-section{
+	padding: 150px 0;
+	background: #f5f5f5;
+}
+.tab-section ul{
+	padding: 0;
+	
+}
+.tab-section ul .active{
+	background: #ff8b38;
+	color: #fff;
+	font-weight: 700;
+	line-height: 120px;
+	cursor: pointer;
+	transition: .4s ease-in-out;
+}
+.tab-section ul li{
+	display: block;
+    background: #333;
+    width: 120px;
+    min-height: 120px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+    border: 1px solid #f5f5f5;
+    border-radius: 3px;
+    line-height: 120px;
+    cursor: pointer;
+    transition: .4s ease-in-out;
+}
+.tab-section ul li:hover{
+	background: #ff8b38;
+	color: #fff;
+}
+.tab-content h2{
+	font-size: 28px;
+    color: #000;
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+.tab-content p{
+	color: #86878b;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+.tab-button{
+	background: #ff8b38;
+    color: #fff;
+    border: 1px solid #ff8b38;
+    padding: 10px 25px;
+    border-radius: 3px;
+    transition: .4s ease-in-out;
+}
+.tab-button:hover{
+	background: transparent;
+    color: #000;
+    border: 1px solid #ff8b38;
+}
+/****************************************
+		Sublist Section CSS
+*****************************************/
+.sublist-section{
+	padding: 125px 0;
+}
+.sublist-section h2{
+	font-size: 28px;
+	font-weight: 700;
+}
+.sublist-border{
+	background: #ff8b38;
+	width: 90px;
+	height: 2px;
+	margin: 25px 0;
+} 
+.sublist-section p{
+	color: #86878b;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.fa-cloud-upload{
+	color: #ff8b38;
+    border: 1px solid #ff8b38;
+    border-radius: 50%;
+    font-size: 30px;
+    padding: 10px;
+    width: 55px;
+    height: 55px;
+    line-height: 34px;
+    text-align: center;
+}
+
+/****************************************
+		Picture Section CSS
+*****************************************/
+.picture-section{
+	background: #f5f5f5;
+	padding: 100px 0 120px;
+}
+.picture-section h2{
+	font-size: 32px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.picture-section p{
+	color: #86878b;
+    font-size: 16px;
+}
+
+/****************************************
+		Awesome Section CSS
+*****************************************/
+.awesome-section{
+	padding: 100px 0;
+}
+.awesome-section h1{
+	font-size: 48px;
+	font-weight: 500;
+	text-align: center;
+	
+}
+.awesome-section p{
+	text-align: center;
+}
+.awesome-border{
+	background: #ff8b38;
+	width: 90px;
+	height: 2px;
+	margin: 30px auto;
+}
+.awesome-one{
+	text-align: center;
+	margin-top: 85px;
+}
+.awesome-icon {
+    width: 90px;
+    height: 90px;
+    line-height: 100px;
+    margin: 0 auto;
+    border: 1px solid #ff8b38;
+    border-radius: 50%;
+    text-align: center;
+    
+}
+.awesome-icon .fa-lightbulb-o{
+	font-size: 30px;
+    color: #ff8b38;
+    line-height: 40px;
+}
+.awesome-one h2{
+	margin: 30px 0;
+    font-size: 32px;
+    text-transform: capitalize;
+}
+.awesome-one p{
+	font-size: 14px;
+    line-height: 22px;
+    color: #86878b;
+}
+.awesome-icon .fa-keyboard-o{
+	font-size: 30px;
+    color: #ff8b38;
+    line-height: 40px;
+}
+.awesome-icon .fa-bolt{
+	font-size: 30px;
+    color: #ff8b38;
+}
+
+/****************************************
+		Pricing Section CSS
+*****************************************/
+.pricing-section{
+	width: 100%;
+	background: #f5f5f5;
+	padding: 100px 0;
+	text-align: center;
+}
+.pricing-section h2{
+	font-size: 48px;
+	font-weight: 500;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.pricing-pad{
+	padding-top: 100px;
+}
+.pricing-slot{
+	width: 100%;
+	text-align: center;
+}
+.pricing-head{
+	background: #333333;
+	padding: 15px 0;
+	width: 100%;
+	border-bottom: 1px solid #ddd;
+}
+.pricing-head h4{
+	color: #fff;
+    margin: 0;
+    font-size: 34px;
+    font-weight: 700;
+}
+.pricing-inner{
+	width: 100%;
+    background: #333;
+    padding: 5px 0 15px 0;
+    border-bottom: 3px solid #ff8b38;
+}
+.pricing-inner h2{
+	color: #fff;
+    font-size: 70px;
+    font-weight: 700px;
+}
+.pricing-inner sub{
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+    font-weight: 700;
+}
+.pricing-inner p{
+	color: #999;
+    margin-bottom: 0;
+    font-style: italic;
+}
+.pricing-detail{
+	background: #fff;
+}
+.pricing-detail ul{
+	padding: 0;
+}
+.pricing-detail ul li{
+	display: block;
+    padding: 10px 0;
+    text-transform: uppercase;
+    color: #a4a5a8;
+    border-bottom: 1px solid #eee;
+}
+.pricing-popular{
+	width: 100%;
+	background: #ff8b38;
+}
+.pricing-popular h4{
+	color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 7px 0;
+    margin: 0;
+}
+.middle-part{
+	margin-top: -35px;
+}
+
+/****************************************
+		Pricing Section CSS
+*****************************************/
+.testimonial-sec{
+	width: 100%;
+	padding: 100px 0;
+}
+.testimonial-sec h1{
+	text-align: center;
+}
+.testimonial-sec p{
+	text-align: center;
+}
+.margin-t{
+	margin-top: 80px;
+}
+.testimonial-inner{
+	width: 100%;
+	position: relative;
+	background: #f5f5f5;
+	padding: 20px;
+	border: 1px solid #f5f5f5;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+.testimonial-inner p{
+	text-align: left;
+    font-size: 17px;
+    font-style: italic;
+
+}
+.divider{
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	background: #f5f5f5;
+	bottom: -10px;
+	left: 25px;
+	transform: rotate(45deg);
+}
+.media img{
+	width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+.media .media-body{
+	margin-top: 20px;
+}
+.media .media-body h5{
+	margin: 0;
+	font-weight: 700;
+	font-weight: 700;
+    font-size: 26px;
+}
+
+/****************************************
+		Stylish Section CSS
+*****************************************/
+.stylish-sec{
+	width: 100%;
+	background: url(../img/stylish.png) no-repeat center top;
+	background-size: cover;
+	text-align: center;
+	padding: 75px 0;
+}
+.stylish-sec h1{
+	color: #fff;
+	font-size: 36px;
+    font-weight: 500;
+}
+.stylish-sec h6{
+	color: #fff;
+	font-weight: 100;
+    font-size: 16px;
+}
+.stylish-sec .stylish-b{
+	background: #fff;
+}
+.stylish-sec .button-stylish{
+	background: transparent;
+    color: #fff;
+    padding: 10px 30px;
+    margin-top: 25px;
+    border: 2px solid #fff;
+    border-radius: 3px;
+}
+.stylish-sec .button-stylish:hover{
+	background: #ff8b38;
+	border: 2px solid #ff8b38;
+}
+
+/****************************************
+		Contact Us Section CSS
+*****************************************/
+.contact-sec{
+	width: 100%;
+	padding: 100px 0;
+}
+.contact-sec h1{
+	text-align: center;
+}
+.contact-sec p{
+	text-align: center;
+}
+.margin-tp{
+	padding-top: 90px;
+}
+
+.form-field{
+	height: 42px;
+    border: none;
+    border-bottom: 2px solid #ddd;
+}
+.text-area{
+	border: none;
+    border-bottom: 2px solid #ddd;
+}
+.btn-form{
+	background: #ff8b38;
+    border: 2px solid #ff8b38;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 3px;
+    margin-top: 30px;
+}
+
+/****************************************
+		Contact Us Section CSS
+*****************************************/
+footer{
+	width: 100%;
+	background: #000;
+}
+footer .social-media{
+	text-align: center;
+}
+footer .social-media ul li a{
+	font-size: 26px;
+    color: #fff;
+}
+footer p{
+	text-align: center;
+    color: #fff;
+    font-size: 14px;
+}
+/****************************************
+		Media Query Css
+*****************************************/
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .navbar-brand{
+  	margin: 0 auto;
+  }
+  .banner-section{
+  	padding: 70px 0;
+  }
+  .banner-section h1{
+  	font-size: 26px;
+  }
+  .medq-1{
+  	padding: 0;
+  }
+  .social-media ul{
+  	padding-left: 0;
+  }
+  .social-media ul li a{
+  	font-size: 24px;
+  }
+  .social-media {
+    margin-top: 20px;
+  }
+  .tab-section {
+    padding: 50px 0;
+    text-align: center;
+  }
+  .tab-section ul {
+    margin-left: 122px;
+  }
+  .pull-right {
+    float: none;
+    margin-top: 40px; 
+  }
+  .sublist-section {
+    padding: 50px 0;
+  }
+  .awesome-section {
+    padding: 50px 0;
+  }
+  .awesome-one {
+    margin-top: 30px;
+  }
+  .mar-cen{
+  	text-align: center;
+  }
+  .sublist-border{
+  	margin: 15px auto;
+  }
+  .padd-b{
+  	padding-bottom: 15px;
+  }
+  .picture-section {
+    padding: 50px 0;
+  }
+  .picture-section img{
+  	margin-left: -50px;
+  }
+  .pricing-section {
+    padding: 50px 0;
+  }
+  .pricing-pad {
+    padding-top: 30px;
+  }
+  .middle-part {
+    margin-top: 10px;
+  }
+  .pricing-slot {
+    margin-top: 30px;
+  }
+  .testimonial-sec {
+    padding: 50px 0;
+  }
+  .testimonial-sec h1 {
+    font-size: 32px;
+  }
+  .testimonial-sec p {
+    font-size: 20px;
+  }
+  .margin-t {
+    margin-top: 10px;
+  }
+  .testimonial-inner {
+    width: 90%;
+    margin-left: 20px;
+  }
+  .media{
+  	margin-left: 20px;
+  }
+  .stylish-sec{
+  	padding: 50px 0;
+  }
+  .contact-sec{
+  	padding: 50px 0;
+  }
+  .margin-tp {
+    padding-top: 25px;
+  }
+  .form-field{
+  	font-size: 22px;
+  }
+  .text-area{
+  	font-size: 22px;
+  }
+  .contact-sec p{
+  	font-size: 20px;
+  }
+  footer .social-media ul li a {
+    font-size: 20px;
+    color: #fff;
+  }
+}
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px){
+  .nav-item .nav-link {
+    font-size: 26px;
+ }
+ .banner-section{
+ 	padding: 80px 0 100px;
+ }
+ .banner-section h1 {
+    font-size: 32px;
+    line-height: 50px;
+ }
+ .banner-section h6{
+ 	font-size: 22px;
+ }
+ .btn-custom{
+ 	font-size: 26px;
+ }
+ .offset-md-2{
+ 	margin: 0 auto;
+ }
+ .form-heading h2{
+ 	font-size: 28px;
+ }
+ .trial-body .form-control{
+ 	font-size: 26px;
+ }
+ .btn-trial{
+ 	font-size: 26px;
+ }
+ .social-section p {
+    font-size: 24px;
+ }
+ .tab-section{
+ 	padding: 100px 0;
+ }
+ .tab-content h2{
+ 	font-size: 26px;
+ }
+ .pull-right{
+ 	margin-top: 60px;
+ }
+ .awesome-section p{
+ 	font-size: 18px;
+ }
+ .pricing-detail{
+ 	font-size: 20px;
+ }
+ .testimonial-sec p {
+    font-size: 22px;
+ }
+ .testimonial-inner p{
+ 	font-size: 18px;
+ }
+ .stylish-sec h6{
+ 	font-weight: 300;
+    font-size: 20px;
+ }
+ .button-stylish{
+ 	font-size: 28px;
+ }
+ .contact-sec p{
+ 	font-size: 24px;
+ }
+ .form-field{
+ 	font-size: 26px;
+ }
+ .text-area{
+ 	font-size: 26px;
+ }
+ .btn-form{
+ 	font-size: 32px;
+ 	padding: 20px 40px;
+ }
+ .form-group {
+    margin-bottom: 3.7rem;
+ }
+}
+
+
+
